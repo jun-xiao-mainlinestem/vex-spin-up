@@ -1,0 +1,26 @@
+7/13/2022
+1. 
+problem: the back distance sensor kept giving wrong inconsistent readings when the distance is larger than 30 inches. 
+solution: raise back distance higher to prevent the light bouncing back from the disk on the floor. 
+also use the while loop to get a true distance reading.
+
+2. 
+problem: pause after slide before turning to shoot.
+solution: wait 3 seconds before the auton for the inertial sensor to calibrate. 
+
+3.
+problem: turnwest does not turn fully to west.
+solution: wait 800 msec for the inertial sensor to settle down before turning.
+
+4. 
+problem: trouble aligning with the second roller to roll.
+solution: slow down the drive and slide to be more accurate.
+todo: use side distance sensor to set slide distance.
+
+5.
+problem: the indexer got bend.
+solution: the rubber guide on the side need to be longer to cover the whole length of the shooting ramp.
+
+7/15/2022
+field setup: check field perimeter as well as high goal placment
+improvement: make the ring holder taller to hold 3 disks.
